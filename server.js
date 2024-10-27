@@ -9,7 +9,7 @@ const app = express();
 config(); 
 
 app.use(cors({
-  origin: 'https://test-task-blue.vercel.app', 
+  origin: 'https://test-task-mu-eight.vercel.app',
   methods: ['GET', 'POST', 'DELETE', 'PUT'],
   credentials: false,
 }));
